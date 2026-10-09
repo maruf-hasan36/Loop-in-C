@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    for(int x = 1; x <= 100; x++ )
+    for(int i=1; i<=1000; i++)
     {
-        printf("I Love You Baybe\n");
-    };
+        printf("%d\n",i);
+    }
     return 0;
 };
