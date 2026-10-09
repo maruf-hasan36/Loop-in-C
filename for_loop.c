@@ -1,19 +1,13 @@
-// #include<stdio.h>
-// int main()
-// {
-//     for(int i=5; i<=100; i=i+5 )
-//     {
-//         printf("%d\n",i);
-//     }
-//     return 0;
-// };
-
 #include<stdio.h>
 int main()
 {
-    for(int i=1; i<100; i=i+i)
+    int n;
+    scanf("%d",&n);
+    int sum = 0;
+
+    for(int i = 0;i<=100;i++)
     {
-        printf("%d\n",i);
+        sum = sum + i;
+        printf("%d\n",sum);
     }
-    return 0;
 };
