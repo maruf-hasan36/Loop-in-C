@@ -1,16 +1,1 @@
- Odd number is: 1
- Even number is: 2
- Odd number is: 3
- Even number is: 4
- Odd number is: 5
- Even number is: 6
- Odd number is: 7
- Even number is: 8
- Odd number is: 9
- Even number is: 10
- Odd number is: 11
- Even number is: 12
- Odd number is: 13
- Even number is: 14
- Odd number is: 15
- Even number is: 16
+500
