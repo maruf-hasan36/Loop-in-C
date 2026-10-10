@@ -22,20 +22,43 @@
 //     return 0;
 // };
 
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
+// #include <stdio.h>
+// #include <string.h>
+// #include <math.h>
+// #include <stdlib.h>
 
-int main() {
-int N;
-scanf("%d",&N);
-if(N % 3==0)
+// int main() {
+// int N;
+// scanf("%d",&N);
+// if(N % 3==0)
+// {
+//     printf("YES");
+// }
+// else
+// {
+//     printf("NO");
+// }
+// };
+
+#include<stdio.h>
+int main()
 {
-    printf("YES");
-}
-else
-{
-    printf("NO");
-}
+    int tk;
+    scanf("%d",&tk);
+    if(tk>1000)
+    {
+        printf("I will buy Punjabi\n");
+        int extra=tk - 1000;
+        if (extra >=500)
+        {
+            printf("I will buy new shoes\n");
+            printf("Alisa will buy new shoes");
+
+        }
+        
+    }
+    else
+    {
+        printf("Bad luck!");
+    }
 };
